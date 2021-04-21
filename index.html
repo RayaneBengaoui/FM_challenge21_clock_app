@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Clock App</title>
-</head>
-<body>
-  , it's currently
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  in
-
-  More
-  Less
-
-  Current timezone
-  Day of the year
-  Day of the week
-  Week number
-</body>
+    <title>Frontend Mentor | Clock App</title>
+  </head>
+  <body>
+    <main>
+      <div class="quote-container">
+        <blockquote>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+          accusantium, culpa at voluptate dolorem architecto? Mollitia odit
+          maxime accusantium dolore.
+        </blockquote>
+        <p class="quote-container__author"></p>
+      </div>
+      <section class="time-container">
+        <div class="time-container-text">
+          <div class="time-container-text__greeting">
+            <img src="" alt="sun/moon" />
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="time-container-text__time">
+            <time>10:00 <span>timezone</span></time>
+          </div>
+          <div class="time-container-text__location">
+            <p>location</p>
+          </div>
+        </div>
+        <div class="time-container-button">
+          <button>more</button>
+        </div>
+      </section>
+      <section class="details">
+        <div class="details__block">
+          <div class="details__block-information timezone">
+            <h3>Current Timezone</h3>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="details__block-information day-year">
+            <h3>Day of the year</h3>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+        <div class="details__block">
+          <div class="details__block-information day-week">
+            <h3>Day of the week</h3>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="details__block-information week-number">
+            <h3>Week Number</h3>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
