@@ -1,0 +1,24 @@
+{
+  "name": "clockapp",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Clock app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --out-dir docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayaneBengaoui/FM_challenge21_clock_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayaneBengaoui/FM_challenge21_clock_app/issues"
+  },
+  "homepage": "https://github.com/RayaneBengaoui/FM_challenge21_clock_app#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.11"
+  }
+}
